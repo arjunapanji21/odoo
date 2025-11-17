@@ -31,6 +31,34 @@ To learn the software, we recommend the [Odoo eLearning](https://www.odoo.com/sl
 or [Scale-up, the business game](https://www.odoo.com/page/scale-up-business-game).
 Developers can start with [the developer tutorials](https://www.odoo.com/documentation/master/developer/howtos.html).
 
+## Comprehensive Documentation
+
+This repository includes detailed technical documentation covering all aspects of the Odoo platform:
+
+### 📊 [Database Documentation](database.md)
+Complete database architecture, ORM framework, and module-by-module data models:
+- PostgreSQL architecture (598 modules, 3,101 model files)
+- Core database concepts and ORM patterns
+- All major modules: Accounting, Sales, Inventory, HR, Project, etc.
+- Database schema patterns and relationships
+- Security model and performance optimization
+
+### 🔧 [Backend Documentation](backend.md)
+Complete backend architecture, business logic, and API implementations:
+- Python framework and HTTP layer (468 controllers, 363 wizards)
+- Business logic patterns across all modules
+- API architecture (XML-RPC, JSON-RPC, REST)
+- Security, authentication, and authorization
+- Background jobs and automation
+
+### 🎨 [Frontend Documentation](frontend.md)
+Complete frontend architecture, UI framework, and components:
+- OWL component framework (5,608 JavaScript files)
+- 15+ view types: Form, List, Kanban, Calendar, Gantt, etc.
+- UI components and widgets (3,383 XML views)
+- Website builder and e-commerce features
+- Mobile responsiveness and PWA support
+
 ## Security
 
 If you believe you have found a security issue, check our [Responsible Disclosure page](https://www.odoo.com/security-report)
